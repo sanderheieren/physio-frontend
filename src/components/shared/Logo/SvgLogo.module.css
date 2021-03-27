@@ -1,0 +1,3 @@
+.logoContainer > svg > path {
+  fill: var(--logo-color);
+}

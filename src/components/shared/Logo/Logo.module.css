@@ -1,0 +1,22 @@
+.Logo {
+  width: 100%;
+  height: 100%;
+  color: var(--logo-color);
+}
+
+.Logo a {
+  color: var(--logo-color);
+}
+
+.Logo.Navbar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 40px;
+  width: auto;
+}
+
+@media (min-width: 800px) {
+  .Logo.Navbar {
+  }
+}

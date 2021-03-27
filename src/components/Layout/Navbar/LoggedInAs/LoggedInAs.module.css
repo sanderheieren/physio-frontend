@@ -1,0 +1,33 @@
+.navNameContainer {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.navNameContainerSideDrawer {
+  display: block;
+}
+
+.navNameSmall {
+  font-size: x-small;
+}
+
+.navName {
+  font-size: small;
+}
+
+.colorLight {
+  color: var(--logged-in-as-light);
+}
+.colorDark {
+  color: var(--logged-in-as-dark);
+  padding: 0 0 40px;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .navNameContainer {
+    display: flex;
+  }
+}

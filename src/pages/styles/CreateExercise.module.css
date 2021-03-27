@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.heading {
+  text-align: center;
+  margin: 40px;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.wrapper form {
+  margin: 20px 0 0;
+}
+
+.videoTitle {
+  margin: 0 auto;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+  padding: 0 10px;
+}
+
+@media (min-width: 400px) {
+  .wrapper {
+    padding: 30px 20px 0;
+    margin: 20px auto 40px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+      rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+  }
+}

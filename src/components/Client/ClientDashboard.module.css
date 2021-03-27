@@ -1,0 +1,17 @@
+.clientDashWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.clientWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingTitle {
+  margin: 50px;
+  font-size: 2.5em;
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+.NavLinks {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.LogoDesktop {
+  display: none;
+}
+
+.exitToAppSideBar,
+.exitToAppNavBar {
+  align-items: center;
+  padding: 5px 20px;
+  color: var(--sidebar-icon);
+
+  text-decoration: none;
+  font-size: 1.3em;
+  transition: 0.1s ease-out;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.exitToAppSideBar svg {
+  margin-left: 7px;
+}
+
+.exitToAppSideBar:hover,
+.exitToAppNavBar:hover {
+  color: var(--font-active);
+}
+
+@media (min-width: 800px) {
+  .NavLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .LogoDesktop {
+    display: block;
+    width: 200px;
+  }
+  .NavbarContainer {
+    display: flex;
+  }
+  .exitToAppNavBar {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: var(--navbar-icons);
+  }
+  .exitToAppNavBar p {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  .exitToAppSideBar {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .LogoDesktop {
+    width: 150px;
+  }
+  .exitToAppNavBar {
+    display: none;
+  }
+  .exitToAppSideBar {
+    display: flex;
+  }
+}

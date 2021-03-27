@@ -1,0 +1,23 @@
+.addedExercises {
+  margin: auto;
+  max-width: 400px;
+}
+
+.addExerciseTitle {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.noExercises {
+  text-align: center;
+  color: var(--font-light);
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.errorMsg {
+  color: red;
+}

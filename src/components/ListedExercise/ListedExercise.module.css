@@ -1,0 +1,20 @@
+.exercise {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.title {
+  /* margin: 20px 0 5px; */
+  /* max-width: 60%; */
+  line-break: normal;
+  word-break: break-all;
+}
+
+@media (min-width: 500px) {
+  .exercise {
+    /* justify-content: space-around; */
+  }
+}

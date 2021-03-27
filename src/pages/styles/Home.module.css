@@ -1,0 +1,65 @@
+.header {
+  margin-top: 59px;
+  width: 100%;
+  background-color: var(--bgc-dark);
+  text-align: center;
+  padding: 2vh;
+  color: var(--logo-color);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 5px 40px;
+  margin: 5px auto;
+  width: 100%;
+  max-width: 1000px;
+  /* border-radius: 10px; */
+  /* box-shadow: 
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px; */
+}
+
+.ilustration {
+  width: 70%;
+  height: auto;
+  align-self: flex-end;
+}
+
+.section {
+  /* display: flex; */
+  width: 62%;
+  align-self: flex-start;
+  margin-top: -95px;
+}
+
+.h3 {
+  width: 40%;
+  margin: 0;
+}
+
+.divCard {
+  margin-bottom: 3vh;
+  align-self: center;
+  /* border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px; */
+}
+
+.divCard p {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 40%;
+  }
+
+  .section {
+    width: 90%;
+    margin: 0;
+  }
+
+  .h3 {
+    width: 90%;
+  }
+}

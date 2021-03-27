@@ -1,0 +1,65 @@
+.colors {
+  color: #003049;
+  color: #d62828;
+  color: #f77f00;
+  color: #fcbf49;
+  color: #eae2b7;
+}
+.navbarContainer {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 0 20px;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  background-color: var(--navbar-background);
+  z-index: 10000;
+}
+
+.goBack {
+  padding: 10px;
+  margin-right: 20px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: var(--navbar-icons);
+  cursor: pointer;
+}
+
+.goBack p {
+  margin: 0;
+  font-size: 0.6em;
+}
+
+.burger {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.burger svg {
+  font-size: 2em;
+  color: var(--burger);
+}
+
+@media (max-width: 799px) {
+  .DesktopOnly {
+    display: none;
+  }
+  .smDevices {
+    display: none;
+  }
+}
+@media (min-width: 799px) {
+  .burger {
+    display: none;
+  }
+  .navbarContainer nav {
+    margin: 0 0 0 auto;
+  }
+}

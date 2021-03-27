@@ -1,0 +1,54 @@
+:root {
+  /* https://coolors.co/134074-5c738d-a5a5a5-7a7a7a-566e3d-d7263d-510d0a-612320-6f3734 */
+
+  /* Main colors */
+  --logo-color: #510d0a;
+
+  --one-light: #6f3734;
+  --one: #612320;
+  --one-dark: #510d0a;
+
+  --footer-nav-background: #a5a5a5;
+
+  --primary-color: #134074;
+  /* --primary-color-darker: #3b8b3e; */
+  /* --primary-color-transparent: rgb(76, 175, 80, 0.1); */
+  --secondary-color: #d7263d;
+  /* --secondary-color-darker: #7c2222; */
+  /* --secondary-color-transparent: rgb(216, 73, 29, 0.1); */
+
+  --two: #7a7a7a;
+
+  --blue-color: #7a7a7a;
+
+  /* Spesific colors */
+  --font-super-light: var(--one-light);
+  --font-light: #4888aa;
+  --font-dark: var(--footer-nav-background);
+  --bgc-dark: var(--footer-nav-background);
+  --font-active: var(--one);
+  --active-link: var(--one-dark);
+  --grey-dark: rgb(128, 128, 128);
+  --grey: rgb(230, 230, 230);
+  --grey-light: rgb(211, 211, 211);
+  --grey-transparent: rgb(128, 128, 128, 0.1);
+
+  --navbar-background: var(--footer-nav-background);
+  --navbar-icons: var(--one);
+  --burger: var(--one-dark);
+  --sidebar-icon: #7e7e7e;
+  --sidebar-link: #7e7e7e;
+  --logged-in-as-light: var(--one-light);
+  --logged-in-as-dark: var(--one-dark);
+
+  --session-heading: var(--primary-color);
+
+  --footer-background: var(--footer-nav-background);
+  --footer-color: var(--font-super-light);
+
+  --client-list-icons: var(--one-light);
+  --list-line: rgba(204, 204, 204, 0.4);
+
+  --card-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+}

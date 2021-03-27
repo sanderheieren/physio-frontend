@@ -1,0 +1,47 @@
+.activeClientsContainer {
+  width: 100%;
+}
+
+.clientList {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 20px;
+  height: 62px;
+  align-items: center;
+  border-bottom: 1px solid var(--list-line);
+}
+
+.client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  height: 70px;
+  border-bottom: 1px solid var(--list-line);
+}
+
+.client svg {
+  color: var(--client-list-icons);
+}
+
+.clientData {
+  display: flex;
+  align-items: center;
+}
+.clientData svg {
+  margin-right: 20px;
+  color: var(--client-list-icons);
+}
+
+@media (min-width: 800px) {
+  .activeClientsContainer {
+    width: 40%;
+    margin: 0 auto;
+  }
+}

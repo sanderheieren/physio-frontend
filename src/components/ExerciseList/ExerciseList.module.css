@@ -1,0 +1,131 @@
+.exercisesListWrapper {
+  margin: 40px auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.exerciseList {
+  width: 100%;
+}
+
+.exercise {
+  position: relative;
+  margin: 20px auto;
+  padding: 25px 0;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+}
+
+.order {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  /* background-color: #ddd; */
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+}
+
+.heading {
+  margin: 20px;
+  text-align: center;
+}
+
+.exerciseHeading {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.exerciseDescription {
+  margin: 10px;
+  margin-left: 20px;
+  width: 90%;
+  padding: 10px;
+}
+
+.description {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.actionContainer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.editActionContainer {
+  margin: 0 20px 20px;
+  text-align: right;
+}
+
+.exercise button {
+  margin-left: 10px;
+}
+
+.videoContainer {
+  margin: auto;
+  width: 90%;
+}
+
+.addedExercises {
+  margin: auto;
+  max-width: 400px;
+}
+
+.addExerciseTitle {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.noExercises {
+  text-align: center;
+  color: var(--font-light);
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+@media (min-width: 400px) {
+  .exercise {
+    border-radius: 5px;
+  }
+
+  .exercisesListWrapper {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+      rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+  }
+}
+@media (min-width: 500px) {
+  .order {
+    display: block;
+  }
+}
+@media (min-width: 800px) {
+  .exercisesListWrapper {
+    border-radius: 5px;
+  }
+  .exerciseList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .exercise {
+    margin: 20px;
+  }
+}

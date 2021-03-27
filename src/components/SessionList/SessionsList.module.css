@@ -1,0 +1,40 @@
+.sessionList,
+.clientSideSessionList {
+  margin: 40px 0;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+
+.headingTitle {
+  margin: 0;
+  padding: 15px;
+  color: white;
+  background-color: var(--session-heading);
+}
+
+.actionCreateContainer {
+  text-align: right;
+  margin: 20px;
+}
+
+.session {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+@media (min-width: 800px) {
+  .sessionList {
+    margin: 0;
+    min-width: 400px;
+    flex-basis: 45%;
+    border-radius: 0 5px 5px 0;
+    box-shadow: none;
+  }
+}
